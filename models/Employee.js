@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-// Employee schema with required name & email, optional department & salary
 const employeeSchema = new mongoose.Schema({
   name: {
     type: String,
